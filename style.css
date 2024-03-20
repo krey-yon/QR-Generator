@@ -1,0 +1,73 @@
+#header {
+  background-color: #f0f0f002;
+  padding: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f0f0f0;
+  background-image: url("Assets/BG.png");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  position: fixed;
+  width: 70%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #0c0c0c;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  outline: none;
+}
+
+.qrcode {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff1f;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
